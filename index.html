@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library : theOdinProject</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+      </style>
+</head>
+<body>
+    <nav id="header">
+        <h1>My Library</h1>
+    </nav>
+
+    <div class="addBooks">
+        <button id="addBtn">
+            + Add book
+        </button>
+    </div>
+
+    <div id="container">
+        <!-- <div class="card">
+            <h2 id="displayName">"The Namesake"</h2>
+            <h2 id="displayAuthor">by Jhumpa Lahiri</h2>
+            <h2 id="displayPages">245 pages</h2>
+            <button id="read">Read</button>
+            <button id="remove">Remove</button>
+        </div> -->
+    </div>
+
+    <dialog id="formDialog">
+        <form action="" id="form">
+            <h2>Add a new Book</h2>
+            <input type="text" id="book" autocomplete="off" placeholder="   Book name">
+            <input type="text" id="author" autocomplete="off" placeholder="   Author name">
+            <input type="number" id="pages" autocomplete="off" placeholder="   no. of Pages">
+            <h3>Have you read It ? <input type="checkbox" name="read" id="read"></h3>
+            <button type="submit" id="submitBtn">Submit</button>
+        </form>
+    </dialog>
+
+    <footer>
+        <p>Copyright &copy2023 @sa9ar - theOdinProject</p>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

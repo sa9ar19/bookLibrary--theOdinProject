@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    height: 100px;
+    display: flex;
+    background-color: #646363;
+    align-items: center;
+}
+
+#header h1 {
+    font-size: 40px;
+    color: #ffffff;
+    padding-left: 30px;
+}
+
+.addBooks {
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.addBooks button {
+    height: 50px;
+    width: 200px;
+    border: none;
+    margin: auto;
+    font-size: 30px; 
+    background-color: #ffffff;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.addBooks button:hover{
+    cursor: pointer;
+    background-color: #edeaea;
+}
+
+#container {
+    display: flex;
+    width: 88%;
+    margin:10px auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: auto;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 300px;
+    width: 270px;
+    background-color: #bab7b7;
+    border-radius: 10px;
+    text-align: center;
+    margin: 10px;
+    padding-top: 20px;
+}
+
+.card h2{
+    font-size: 25px;
+    margin: 10px auto;
+}
+.card :nth-child(2){
+    font-family: 'Dancing Script', cursive;}
+
+.card button {
+    height: 40px;
+    width: 80%;
+    margin:10px auto;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.removeBtn{
+    background-color: #f30b0b;
+}
+
+.removeBtn:hover{
+    background-color: #e24949;
+    cursor: pointer;
+}
+
+.readBtn{
+    background-color: #65d4e5;
+}
+
+.readBtn:hover{
+    background-color: #17cae5;
+    cursor: pointer;
+}
+
+#formDialog{
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+}
+
+#form {
+    height: 420px;
+    width: 350px;
+    background-color: #65d4e5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+#form h2{
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+input {
+    height: 40px;
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+}
+
+#form h3 {
+    font-size: 25px;
+    text-align: center;
+}
+
+#form button{
+    height: 50px;
+    width: 80%;
+    margin: auto;
+    background-color: #6de05e;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #ffffff;
+    margin-top: -10px;
+}
+
+#form button:hover{
+    background-color: #2cca39;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #646363;
+    height: 40px;
+    width: 100%;
+    margin: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+}
+p{
+    font-size: 18px;
+}
